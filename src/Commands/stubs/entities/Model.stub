@@ -1,0 +1,13 @@
+<?php
+
+namespace Modules\$MODULE$\Entities;
+
+class $CLASS$ extends $MODULE$BaseModel
+{
+    protected $table = '$LOWER_NAME$';
+
+    protected $fillable = [
+        'name',
+        'age'
+    ];
+}
