@@ -1,5 +1,5 @@
 {
-  "name": "nwidart/laravel-modules",
+  "name": "hthang369/laravel-modules",
   "description": "Laravel Module management",
   "keywords": [
     "modules",
@@ -11,8 +11,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Nicolas Widart",
-      "email": "n.widart@gmail.com",
+      "name": "hthang369",
+      "email": "thangtran3690gmail.com",
       "homepage": "https://nicolaswidart.com",
       "role": "Developer"
     }
