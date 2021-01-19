@@ -105,9 +105,9 @@ class EntityMakeCommand extends GeneratorMultiCommand
     {
         $module_name = $this->getModuleName();
 
-        $entity = empty($file_name)? studly_case($this->argument('name')) : $file_name;
+        $entity = studly_case($this->argument('name')) ?: $module_name;
 
-        return $module_name.$entity;
+        return $entity.$file_name;
     }
 
     /**

@@ -89,11 +89,11 @@ class RepositoryMakeCommand extends GeneratorMultiCommand
     /**
      * @return string
      */
-    private function getFileName($fileName = null)
+    private function getFileName($fileName)
     {
         $moduleName = $this->getModuleName();
-        $file = empty($fileName) ? Str::studly($this->argument('name')) : $fileName;
-        return $moduleName.$file;
+        $name = Str::studly($this->argument('name')) ?: $moduleName;
+        return $name.$fileName;
     }
 
     /**
